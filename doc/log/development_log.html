@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>development.log - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+  var index_rel_prefix = "../";
+</script>
+
+<script src="../js/navigation.js" defer></script>
+<script src="../js/search.js" defer></script>
+<script src="../js/search_index.js" defer></script>
+<script src="../js/searcher.js" defer></script>
+<script src="../js/darkfish.js" defer></script>
+
+<link href="../css/fonts.css" rel="stylesheet">
+<link href="../css/rdoc.css" rel="stylesheet">
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../table_of_contents.html#pages">Pages</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    
+<div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+    <li><a href="../Gemfile.html">Gemfile</a>
+    <li><a href="../Gemfile_lock.html">Gemfile.lock</a>
+    <li><a href="../README_md.html">README</a>
+    <li><a href="../Rakefile.html">Rakefile</a>
+    <li><a href="../app/assets/config/manifest_js.html">manifest.js</a>
+    <li><a href="../app/assets/stylesheets/application_css.html">application.css</a>
+    <li><a href="../app/javascript/application_js.html">application.js</a>
+    <li><a href="../app/javascript/controllers/application_js.html">application.js</a>
+    <li><a href="../app/javascript/controllers/hello_controller_js.html">hello_controller.js</a>
+    <li><a href="../app/javascript/controllers/index_js.html">index.js</a>
+    <li><a href="../app/views/articles/_article_json_jbuilder.html">_article.json.jbuilder</a>
+    <li><a href="../app/views/articles/index_json_jbuilder.html">index.json.jbuilder</a>
+    <li><a href="../app/views/articles/show_json_jbuilder.html">show.json.jbuilder</a>
+    <li><a href="../config_ru.html">config.ru</a>
+    <li><a href="../config/credentials_yml_enc.html">credentials.yml.enc</a>
+    <li><a href="../config/master_key.html">master.key</a>
+    <li><a href="../log/development_log.html">development.log</a>
+    <li><a href="../log/test_log.html">test.log</a>
+    <li><a href="../public/404_html.html">404.html</a>
+    <li><a href="../public/422_html.html">422.html</a>
+    <li><a href="../public/500_html.html">500.html</a>
+    <li><a href="../public/apple-touch-icon-precomposed_png.html">apple-touch-icon-precomposed.png</a>
+    <li><a href="../public/apple-touch-icon_png.html">apple-touch-icon.png</a>
+    <li><a href="../public/favicon_ico.html">favicon.ico</a>
+    <li><a href="../public/robots_txt.html">robots</a>
+    <li><a href="../tmp/development_secret_txt.html">development_secret</a>
+    <li><a href="../tmp/restart_txt.html">restart</a>
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page log/development.log">
+
+<p>Started GET “/” for 127.0.0.1 at 2022-02-08 09:18:37 -0600</p>
+
+<pre>[1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m</pre>
+
+<p>Processing by Rails::WelcomeController#index as HTML</p>
+
+<pre>Rendering /home/alfagonz/.local/share/gem/ruby/3.0.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb
+Rendered /home/alfagonz/.local/share/gem/ruby/3.0.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.1ms | Allocations: 812)</pre>
+
+<p>Completed 200 OK in 14ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 7629)</p>
+
+<p>Started GET “/” for 127.0.0.1 at 2022-02-08 09:20:03 -0600</p>
+
+<p>ArgumentError (Missing :controller key on routes definition, please check your routes.):</p>
+
+<p>config/routes.rb:7:in ‘block in &lt;main&gt;’ config/routes.rb:1:in ‘&lt;main&gt;’ Started GET “/” for 127.0.0.1 at 2022-02-08 09:20:23 -0600</p>
+
+<p>AbstractController::ActionNotFound (The action ‘index’ could not be found for HomepageController):</p>
+
+<p>actionpack (7.0.1) lib/abstract_controller/base.rb:146:in ‘process’ actionview (7.0.1) lib/action_view/rendering.rb:39:in ‘process’ actionpack (7.0.1) lib/action_controller/metal.rb:188:in ‘dispatch’ actionpack (7.0.1) lib/action_controller/metal.rb:251:in ‘dispatch’ actionpack (7.0.1) lib/action_dispatch/routing/route_set.rb:49:in ‘dispatch’ actionpack (7.0.1) lib/action_dispatch/routing/route_set.rb:32:in ‘serve’ actionpack (7.0.1) lib/action_dispatch/journey/router.rb:50:in ‘block in serve’ actionpack (7.0.1) lib/action_dispatch/journey/router.rb:32:in ‘each’ actionpack (7.0.1) lib/action_dispatch/journey/router.rb:32:in ‘serve’ actionpack (7.0.1) lib/action_dispatch/routing/route_set.rb:850:in ‘call’ rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in ‘call’ rack (2.2.3) lib/rack/etag.rb:27:in ‘call’ rack (2.2.3) lib/rack/conditional_get.rb:27:in ‘call’ rack (2.2.3) lib/rack/head.rb:12:in ‘call’ actionpack (7.0.1) lib/action_dispatch/http/permissions_policy.rb:22:in ‘call’ actionpack (7.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in ‘call’ rack (2.2.3) lib/rack/session/abstract/id.rb:266:in ‘context’ rack (2.2.3) lib/rack/session/abstract/id.rb:260:in ‘call’ actionpack (7.0.1) lib/action_dispatch/middleware/cookies.rb:693:in ‘call’ activerecord (7.0.1) lib/active_record/migration.rb:603:in ‘call’ actionpack (7.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in ‘block in call’ activesupport (7.0.1) lib/active_support/callbacks.rb:99:in ‘run_callbacks’ actionpack (7.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in ‘call’ actionpack (7.0.1) lib/action_dispatch/middleware/executor.rb:14:in ‘call’ actionpack (7.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in ‘call’ actionpack (7.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in ‘call’ web-console (4.2.0) lib/web_console/middleware.rb:132:in ‘call_app’ web-console (4.2.0) lib/web_console/middleware.rb:28:in ‘block in call’ web-console (4.2.0) lib/web_console/middleware.rb:17:in ‘catch’ web-console (4.2.0) lib/web_console/middleware.rb:17:in ‘call’ actionpack (7.0.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in ‘call’ railties (7.0.1) lib/rails/rack/logger.rb:36:in ‘call_app’ railties (7.0.1) lib/rails/rack/logger.rb:25:in ‘block in call’ activesupport (7.0.1) lib/active_support/tagged_logging.rb:99:in ‘block in tagged’ activesupport (7.0.1) lib/active_support/tagged_logging.rb:37:in ‘tagged’ activesupport (7.0.1) lib/active_support/tagged_logging.rb:99:in ‘tagged’ railties (7.0.1) lib/rails/rack/logger.rb:25:in ‘call’ sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in ‘call’ actionpack (7.0.1) lib/action_dispatch/middleware/remote_ip.rb:93:in ‘call’ actionpack (7.0.1) lib/action_dispatch/middleware/request_id.rb:26:in ‘call’ rack (2.2.3) lib/rack/method_override.rb:24:in ‘call’ rack (2.2.3) lib/rack/runtime.rb:22:in ‘call’ activesupport (7.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in ‘call’ actionpack (7.0.1) lib/action_dispatch/middleware/server_timing.rb:20:in ‘call’ actionpack (7.0.1) lib/action_dispatch/middleware/executor.rb:14:in ‘call’ actionpack (7.0.1) lib/action_dispatch/middleware/static.rb:23:in ‘call’ rack (2.2.3) lib/rack/sendfile.rb:110:in ‘call’ actionpack (7.0.1) lib/action_dispatch/middleware/host_authorization.rb:137:in ‘call’ railties (7.0.1) lib/rails/engine.rb:530:in ‘call’ puma (5.6.1) lib/puma/configuration.rb:252:in ‘call’ puma (5.6.1) lib/puma/request.rb:77:in ‘block in handle_request’ puma (5.6.1) lib/puma/thread_pool.rb:340:in ‘with_force_shutdown’ puma (5.6.1) lib/puma/request.rb:76:in ‘handle_request’ puma (5.6.1) lib/puma/server.rb:441:in ‘process_client’ puma (5.6.1) lib/puma/thread_pool.rb:147:in ‘block in spawn_thread’ Started GET “/” for 127.0.0.1 at 2022-02-08 09:20:54 -0600 Processing by HomepageController#index as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering homepage/index.html.erb within layouts/application
+Rendered homepage/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 144)
+Rendered layout layouts/application.html.erb (Duration: 277.0ms | Allocations: 90527)</pre>
+
+<p>Completed 200 OK in 280ms (Views: 278.9ms | Allocations: 91668)</p>
+
+<p>Started GET “/about” for 127.0.0.1 at 2022-02-08 09:41:59 -0600</p>
+
+<p>ActionController::RoutingError (No route matches [GET] “/about”):</p>
+
+<p>Started GET “/about” for 127.0.0.1 at 2022-02-08 09:42:50 -0600</p>
+
+<p>NoMethodError (undefined method ‘about’ for #&lt;ActionDispatch::Routing::Mapper:0x00007f106c802f90 @set=#&lt;ActionDispatch::Routing::RouteSet:0x000055f774882158&gt;, @<a href="#<Pathname:/home/alfagonz/www/ruby/alpha-blog/config/routes>“>draw_paths=</a>, @scope=#&lt;ActionDispatch::Routing::Mapper::Scope:0x00007f106c802f40 @hash={:path_names=&gt;{:new=&gt;”new“, :edit=&gt;”edit“}}, @parent=#&lt;ActionDispatch::Routing::Mapper::Scope:0x000055f7751d40f8 @hash=nil, @parent=nil, @scope_level=nil&gt;, @scope_level=nil&gt;, @concerns={}&gt; Did you mean?  abort):</p>
+
+<p>config/routes.rb:9:in ‘block in &lt;main&gt;’ config/routes.rb:1:in ‘&lt;main&gt;’ Started GET “/about” for 127.0.0.1 at 2022-02-08 09:43:37 -0600</p>
+
+<p>ActionController::RoutingError (No route matches [GET] “/about”):</p>
+
+<p>Started GET “/about” for 127.0.0.1 at 2022-02-08 09:46:13 -0600</p>
+
+<p>ActionController::RoutingError (No route matches [GET] “/about”):</p>
+
+<p>Started GET “/” for 127.0.0.1 at 2022-02-08 09:46:17 -0600 Processing by HomepageController#index as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering homepage/index.html.erb within layouts/application
+Rendered homepage/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 142)
+Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 14116)</pre>
+
+<p>Completed 200 OK in 28ms (Views: 27.2ms | Allocations: 15151)</p>
+
+<p>Started GET “/about” for 127.0.0.1 at 2022-02-08 09:46:23 -0600</p>
+
+<p>ActionController::RoutingError (No route matches [GET] “/about”):</p>
+
+<p>Started GET “/aboutpage” for 127.0.0.1 at 2022-02-08 09:46:29 -0600 Processing by AboutpageController#index as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering aboutpage/index.html.erb within layouts/application
+Rendered aboutpage/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 142)
+Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2673)</pre>
+
+<p>Completed 200 OK in 9ms (Views: 7.7ms | Allocations: 3606)</p>
+
+<p>Started GET “/aboutpage” for 127.0.0.1 at 2022-02-09 11:21:00 -0600</p>
+
+<p>ActionController::RoutingError (No route matches [GET] “/aboutpage”):</p>
+
+<p>Started GET “/about” for 127.0.0.1 at 2022-02-09 11:21:05 -0600 Processing by <a href="../PagesController.html#method-i-about"><code>PagesController#about</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering pages/about.html.erb within layouts/application
+Rendered pages/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 144)
+Rendered layout layouts/application.html.erb (Duration: 38.0ms | Allocations: 34593)</pre>
+
+<p>Completed 200 OK in 48ms (Views: 40.1ms | ActiveRecord: 0.0ms | Allocations: 38423)</p>
+
+<p>Started GET “/” for 127.0.0.1 at 2022-02-09 11:21:08 -0600 Processing by PagesController#index as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering pages/index.html.erb within layouts/application
+Rendered pages/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 117)
+Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 2386)</pre>
+
+<p>Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms | Allocations: 2729)</p>
+
+<pre>[1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[35m (18.7ms)[0m  [1m[35mCREATE TABLE &quot;schema_migrations&quot; (&quot;version&quot; varchar NOT NULL PRIMARY KEY)[0m
+[1m[35m (8.5ms)[0m  [1m[35mCREATE TABLE &quot;ar_internal_metadata&quot; (&quot;key&quot; varchar NOT NULL PRIMARY KEY, &quot;value&quot; varchar, &quot;created_at&quot; datetime(6) NOT NULL, &quot;updated_at&quot; datetime(6) NOT NULL)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m</pre>
+
+<p>Migrating to <a href="../CreateArticles.html"><code>CreateArticles</code></a> (20220209181959)</p>
+
+<pre>[1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+[1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE &quot;articles&quot; (&quot;id&quot; integer PRIMARY KEY AUTOINCREMENT NOT NULL, &quot;title&quot; varchar, &quot;description&quot; text, &quot;created_at&quot; datetime(6) NOT NULL, &quot;updated_at&quot; datetime(6) NOT NULL)[0m
+[1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO &quot;schema_migrations&quot; (&quot;version&quot;) VALUES (?)[0m  [[&quot;version&quot;, &quot;20220209181959&quot;]]
+[1m[36mTRANSACTION (9.5ms)[0m  [1m[36mcommit transaction[0m
+[1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+[1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO &quot;ar_internal_metadata&quot; (&quot;key&quot;, &quot;value&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?)[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;value&quot;, &quot;development&quot;], [&quot;created_at&quot;, &quot;2022-02-09 18:32:58.159008&quot;], [&quot;updated_at&quot;, &quot;2022-02-09 18:32:58.159008&quot;]]
+[1m[36mTRANSACTION (4.1ms)[0m  [1m[36mcommit transaction[0m
+[1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m</pre>
+
+<p>Started GET “/” for 127.0.0.1 at 2022-02-09 12:33:59 -0600</p>
+
+<pre>[1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m</pre>
+
+<p>Processing by PagesController#index as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering pages/index.html.erb within layouts/application
+Rendered pages/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 442)
+Rendered layout layouts/application.html.erb (Duration: 67.2ms | Allocations: 35441)</pre>
+
+<p>Completed 200 OK in 74ms (Views: 69.8ms | ActiveRecord: 0.0ms | Allocations: 40091)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 12:34:05 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1426)
+Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 3686)</pre>
+
+<p>Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.1ms | Allocations: 5595)</p>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2022-02-09 12:34:08 -0600 Processing by <a href="../ArticlesController.html#method-i-new"><code>ArticlesController#new</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/new.html.erb within layouts/application
+Rendered articles/_form.html.erb (Duration: 16.2ms | Allocations: 5230)
+Rendered articles/new.html.erb within layouts/application (Duration: 17.5ms | Allocations: 5602)
+Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 7765)</pre>
+
+<p>Completed 200 OK in 34ms (Views: 22.5ms | ActiveRecord: 0.9ms | Allocations: 12931)</p>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2022-02-09 12:34:32 -0600 Processing by <a href="../ArticlesController.html#method-i-create"><code>ArticlesController#create</code></a> as TURBO_STREAM</p>
+
+<pre>Parameters: {&quot;authenticity_token&quot;=&gt;&quot;[FILTERED]&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;First Article&quot;, &quot;description&quot;=&gt;&quot;Description of the first article&quot;}, &quot;commit&quot;=&gt;&quot;Create Article&quot;}
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+↳ app/controllers/articles_controller.rb:27:in `block in create&#39;
+[1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO &quot;articles&quot; (&quot;title&quot;, &quot;description&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?)[0m  [[&quot;title&quot;, &quot;First Article&quot;], [&quot;description&quot;, &quot;Description of the first article&quot;], [&quot;created_at&quot;, &quot;2022-02-09 18:34:32.091277&quot;], [&quot;updated_at&quot;, &quot;2022-02-09 18:34:32.091277&quot;]]
+↳ app/controllers/articles_controller.rb:27:in `block in create&#39;
+[1m[36mTRANSACTION (11.3ms)[0m  [1m[36mcommit transaction[0m
+↳ app/controllers/articles_controller.rb:27:in `block in create&#39;</pre>
+
+<p>Redirected to <a href="http://127.0.0.1:3000/articles/1">127.0.0.1:3000/articles/1</a> Completed 302 Found in 16ms (ActiveRecord: 11.6ms | Allocations: 3868)</p>
+
+<p>Started GET “/articles/1” for 127.0.0.1 at 2022-02-09 12:34:32 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as TURBO_STREAM</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 1], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.5ms | Allocations: 252)
+Rendered articles/show.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1683)
+Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 3846)</pre>
+
+<p>Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.2ms | Allocations: 6965)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 12:34:36 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 24)
+Rendered articles/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1065)
+Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 3128)</pre>
+
+<p>Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.7ms | Allocations: 3512)</p>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2022-02-09 12:34:44 -0600 Processing by <a href="../ArticlesController.html#method-i-new"><code>ArticlesController#new</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/new.html.erb within layouts/application
+Rendered articles/_form.html.erb (Duration: 3.3ms | Allocations: 932)
+Rendered articles/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1028)
+Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3086)</pre>
+
+<p>Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 3444)</p>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2022-02-09 12:35:02 -0600 Processing by <a href="../ArticlesController.html#method-i-create"><code>ArticlesController#create</code></a> as TURBO_STREAM</p>
+
+<pre>Parameters: {&quot;authenticity_token&quot;=&gt;&quot;[FILTERED]&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Second Article&quot;, &quot;description&quot;=&gt;&quot;Description of the second article&quot;}, &quot;commit&quot;=&gt;&quot;Create Article&quot;}
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+↳ app/controllers/articles_controller.rb:27:in `block in create&#39;
+[1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO &quot;articles&quot; (&quot;title&quot;, &quot;description&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?)[0m  [[&quot;title&quot;, &quot;Second Article&quot;], [&quot;description&quot;, &quot;Description of the second article&quot;], [&quot;created_at&quot;, &quot;2022-02-09 18:35:02.354856&quot;], [&quot;updated_at&quot;, &quot;2022-02-09 18:35:02.354856&quot;]]
+↳ app/controllers/articles_controller.rb:27:in `block in create&#39;
+[1m[36mTRANSACTION (11.1ms)[0m  [1m[36mcommit transaction[0m
+↳ app/controllers/articles_controller.rb:27:in `block in create&#39;</pre>
+
+<p>Redirected to <a href="http://127.0.0.1:3000/articles/2">127.0.0.1:3000/articles/2</a> Completed 302 Found in 19ms (ActiveRecord: 11.7ms | Allocations: 2488)</p>
+
+<p>Started GET “/articles/2” for 127.0.0.1 at 2022-02-09 12:35:02 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as TURBO_STREAM</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 2], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 24)
+Rendered articles/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 566)
+Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2611)</pre>
+
+<p>Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.2ms | Allocations: 3436)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 12:35:04 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.2ms | Allocations: 24)
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 23)
+Rendered articles/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1074)
+Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3134)</pre>
+
+<p>Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.2ms | Allocations: 3475)</p>
+
+<p>Started GET “/articles/1” for 127.0.0.1 at 2022-02-09 12:35:15 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 1], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 24)
+Rendered articles/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 525)
+Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2564)</pre>
+
+<p>Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.2ms | Allocations: 3375)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 12:35:17 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 24)
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 23)
+Rendered articles/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1059)
+Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 3119)</pre>
+
+<p>Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.1ms | Allocations: 3460)</p>
+
+<pre>[1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m</pre>
+
+<p>Migrating to <a href="../AddVersionToArticles.html"><code>AddVersionToArticles</code></a> (20220209184659)</p>
+
+<pre>[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+[1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO &quot;schema_migrations&quot; (&quot;version&quot;) VALUES (?)[0m  [[&quot;version&quot;, &quot;20220209184659&quot;]]
+[1m[36mTRANSACTION (12.0ms)[0m  [1m[36mcommit transaction[0m
+[1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m</pre>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 12:51:41 -0600</p>
+
+<pre>[1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m</pre>
+
+<p>Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 47)
+Rendered articles/_article.html.erb (Duration: 0.0ms | Allocations: 23)
+Rendered articles/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2492)
+Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 15998)</pre>
+
+<p>Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.1ms | Allocations: 17665)</p>
+
+<p>Started GET “/articles/1” for 127.0.0.1 at 2022-02-09 12:51:46 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 1], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 24)
+Rendered articles/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 549)
+Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2596)</pre>
+
+<p>Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.1ms | Allocations: 4075)</p>
+
+<p>Started GET “/articles/1/edit” for 127.0.0.1 at 2022-02-09 12:51:48 -0600 Processing by <a href="../ArticlesController.html#method-i-edit"><code>ArticlesController#edit</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 1], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/edit.html.erb within layouts/application
+Rendered articles/_form.html.erb (Duration: 3.3ms | Allocations: 1037)
+Rendered articles/edit.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1360)
+Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3405)</pre>
+
+<p>Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.1ms | Allocations: 4289)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 12:51:55 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 24)
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 23)
+Rendered articles/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1074)
+Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3134)</pre>
+
+<p>Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 3473)</p>
+
+<pre>[1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m</pre>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 12:54:54 -0600</p>
+
+<pre>[1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m</pre>
+
+<p>Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 47)
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 23)
+Rendered articles/index.html.erb within layouts/application (Duration: 47.1ms | Allocations: 2836)
+Rendered layout layouts/application.html.erb (Duration: 56.9ms | Allocations: 16390)</pre>
+
+<p>Completed 200 OK in 74ms (Views: 62.2ms | ActiveRecord: 0.6ms | Allocations: 18054)</p>
+
+<p>Started GET “/articles/2” for 127.0.0.1 at 2022-02-09 12:54:58 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 2], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.3ms | Allocations: 24)
+Rendered articles/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 549)
+Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2599)</pre>
+
+<p>Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.3ms | Allocations: 4078)</p>
+
+<p>Started GET “/articles/2/edit” for 127.0.0.1 at 2022-02-09 12:55:01 -0600 Processing by <a href="../ArticlesController.html#method-i-edit"><code>ArticlesController#edit</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 2], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/edit.html.erb within layouts/application
+Rendered articles/_form.html.erb (Duration: 1.7ms | Allocations: 1020)
+Rendered articles/edit.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1145)
+Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 3195)</pre>
+
+<p>Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.1ms | Allocations: 4007)</p>
+
+<p>Started PATCH “/articles/2” for 127.0.0.1 at 2022-02-09 12:55:05 -0600 Processing by <a href="../ArticlesController.html#method-i-update"><code>ArticlesController#update</code></a> as TURBO_STREAM</p>
+
+<pre>Parameters: {&quot;authenticity_token&quot;=&gt;&quot;[FILTERED]&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Second Article2&quot;, &quot;description&quot;=&gt;&quot;Description of the second article&quot;}, &quot;commit&quot;=&gt;&quot;Update Article&quot;, &quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 2], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+↳ app/controllers/articles_controller.rb:40:in `block in update&#39;
+[1m[36mArticle Update (0.4ms)[0m  [1m[33mUPDATE &quot;articles&quot; SET &quot;title&quot; = ?, &quot;updated_at&quot; = ? WHERE &quot;articles&quot;.&quot;id&quot; = ?[0m  [[&quot;title&quot;, &quot;Second Article2&quot;], [&quot;updated_at&quot;, &quot;2022-02-09 18:55:05.464523&quot;], [&quot;id&quot;, 2]]
+↳ app/controllers/articles_controller.rb:40:in `block in update&#39;
+[1m[36mTRANSACTION (15.0ms)[0m  [1m[36mcommit transaction[0m
+↳ app/controllers/articles_controller.rb:40:in `block in update&#39;</pre>
+
+<p>Redirected to <a href="http://127.0.0.1:3000/articles/2">127.0.0.1:3000/articles/2</a> Completed 302 Found in 23ms (ActiveRecord: 15.6ms | Allocations: 3220)</p>
+
+<p>Started GET “/articles/2” for 127.0.0.1 at 2022-02-09 12:55:05 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as TURBO_STREAM</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 2], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 24)
+Rendered articles/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 563)
+Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2616)</pre>
+
+<p>Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.1ms | Allocations: 3430)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 12:55:09 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 24)
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 23)
+Rendered articles/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1077)
+Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3147)</pre>
+
+<p>Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.2ms | Allocations: 3489)</p>
+
+<p>Started GET “/articles/2” for 127.0.0.1 at 2022-02-09 12:55:13 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 2], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 24)
+Rendered articles/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 543)
+Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2586)</pre>
+
+<p>Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.1ms | Allocations: 3397)</p>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2022-02-09 12:55:17 -0600 Processing by <a href="../ArticlesController.html#method-i-new"><code>ArticlesController#new</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/new.html.erb within layouts/application
+Rendered articles/_form.html.erb (Duration: 2.7ms | Allocations: 894)
+Rendered articles/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 991)
+Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3042)</pre>
+
+<p>Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3399)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 12:57:39 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 11.7ms | Allocations: 11970)
+Rendered articles/index.html.erb within layouts/application (Duration: 14.0ms | Allocations: 13361)
+Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 13449)</pre>
+
+<p>Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.1ms | Allocations: 14618)</p>
+
+<p>ActionView::Template::Error (undefined method ‘version’ for #&lt;Article id: 1, title: “First Article”, description: “Description of the first article”, created_at: “2022-02-09 18:34:32.091277000 +0000”, updated_at: “2022-02-09 18:34:32.091277000 +0000”&gt;):</p>
+
+<pre>11: 
+12:   &lt;p&gt;
+13:     &lt;strong&gt;Version:&lt;/strong&gt;
+14:     &lt;%= article.version %&gt;
+15:   &lt;/p&gt;
+16: 
+17: &lt;/div&gt;</pre>
+
+<p>app/views/articles/_article.html.erb:14 app/views/articles/index.html.erb:7 app/views/articles/index.html.erb:6 Started GET “/articles” for 127.0.0.1 at 2022-02-09 13:01:37 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.3ms | Allocations: 201)
+Rendered articles/_article.html.erb (Duration: 0.0ms | Allocations: 23)
+Rendered articles/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1808)
+Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 4293)</pre>
+
+<p>Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.1ms | Allocations: 5480)</p>
+
+<pre>[1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m</pre>
+
+<p>Migrating to <a href="../AddVersionToArticles.html"><code>AddVersionToArticles</code></a> (20220209190342)</p>
+
+<pre>[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+[1m[35m (0.7ms)[0m  [1m[35mALTER TABLE &quot;articles&quot; ADD &quot;version&quot; integer[0m
+[1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO &quot;schema_migrations&quot; (&quot;version&quot;) VALUES (?)[0m  [[&quot;version&quot;, &quot;20220209190342&quot;]]
+[1m[36mTRANSACTION (16.9ms)[0m  [1m[36mcommit transaction[0m
+[1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m</pre>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 13:04:11 -0600</p>
+
+<pre>[1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m</pre>
+
+<p>Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 47)
+Rendered articles/_article.html.erb (Duration: 0.0ms | Allocations: 23)
+Rendered articles/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 4471)
+Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 17970)</pre>
+
+<p>Completed 200 OK in 22ms (Views: 18.0ms | ActiveRecord: 1.4ms | Allocations: 19635)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 13:04:42 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.9ms | Allocations: 228)
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 23)
+Rendered articles/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1828)
+Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 4297)</pre>
+
+<p>Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.2ms | Allocations: 5501)</p>
+
+<p>Started GET “/articles/2” for 127.0.0.1 at 2022-02-09 13:04:47 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 2], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.2ms | Allocations: 24)
+Rendered articles/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 748)
+Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 2791)</pre>
+
+<p>Completed 200 OK in 13ms (Views: 9.0ms | ActiveRecord: 0.3ms | Allocations: 4353)</p>
+
+<p>Started GET “/articles/2/edit” for 127.0.0.1 at 2022-02-09 13:04:49 -0600 Processing by <a href="../ArticlesController.html#method-i-edit"><code>ArticlesController#edit</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 2], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/edit.html.erb within layouts/application
+Rendered articles/_form.html.erb (Duration: 2.5ms | Allocations: 1378)
+Rendered articles/edit.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1728)
+Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3771)</pre>
+
+<p>Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.1ms | Allocations: 4635)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 13:06:11 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.8ms | Allocations: 226)
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 23)
+Rendered articles/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1832)
+Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 4301)</pre>
+
+<p>Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.2ms | Allocations: 5469)</p>
+
+<p>Started GET “/articles/1” for 127.0.0.1 at 2022-02-09 13:06:12 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 1], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.2ms | Allocations: 24)
+Rendered articles/show.html.erb within layouts/application (Duration: 3.0ms | Allocations: 753)
+Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2796)</pre>
+
+<p>Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.2ms | Allocations: 3727)</p>
+
+<p>Started GET “/articles/1/edit” for 127.0.0.1 at 2022-02-09 13:06:16 -0600 Processing by <a href="../ArticlesController.html#method-i-edit"><code>ArticlesController#edit</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 1], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/edit.html.erb within layouts/application
+Rendered articles/_form.html.erb (Duration: 4.1ms | Allocations: 1601)
+Rendered articles/edit.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1951)
+Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3994)</pre>
+
+<p>Completed 200 OK in 14ms (Views: 11.3ms | ActiveRecord: 0.2ms | Allocations: 4858)</p>
+
+<p>Started PATCH “/articles/1” for 127.0.0.1 at 2022-02-09 13:06:20 -0600 Processing by <a href="../ArticlesController.html#method-i-update"><code>ArticlesController#update</code></a> as TURBO_STREAM</p>
+
+<pre>Parameters: {&quot;authenticity_token&quot;=&gt;&quot;[FILTERED]&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;First Article&quot;, &quot;description&quot;=&gt;&quot;Description of the first article&quot;, &quot;version&quot;=&gt;&quot;1&quot;}, &quot;commit&quot;=&gt;&quot;Update Article&quot;, &quot;id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 1], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;</pre>
+
+<p>[31mUnpermitted parameter: :version. Context: { controller: <a href="../ArticlesController.html"><code>ArticlesController</code></a>, action: update, request: #&lt;ActionDispatch::Request:0x00007f2dae6bf188&gt;, params: {“_method”=&gt;“patch”, “<a href="FILTERED">authenticity_token”=>“</a>”, “article”=&gt;{“title”=&gt;“First Article”, “description”=&gt;“Description of the first article”, “version”=&gt;“1”}, “commit”=&gt;“Update Article”, “controller”=&gt;“articles”, “action”=&gt;“update”, “id”=&gt;“1”} }[0m Redirected to <a href="http://127.0.0.1:3000/articles/1">127.0.0.1:3000/articles/1</a> Completed 302 Found in 5ms (ActiveRecord: 0.2ms | Allocations: 1463)</p>
+
+<p>Started GET “/articles/1” for 127.0.0.1 at 2022-02-09 13:06:20 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as TURBO_STREAM</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 1], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.4ms | Allocations: 24)
+Rendered articles/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 589)
+Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2632)</pre>
+
+<p>Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.1ms | Allocations: 3496)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 13:06:24 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 24)
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 23)
+Rendered articles/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1077)
+Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3141)</pre>
+
+<p>Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.1ms | Allocations: 3484)</p>
+
+<p>Started GET “/articles/1” for 127.0.0.1 at 2022-02-09 13:06:36 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 1], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.2ms | Allocations: 24)
+Rendered articles/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 531)
+Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2574)</pre>
+
+<p>Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.2ms | Allocations: 3385)</p>
+
+<p>Started GET “/articles/1/edit” for 127.0.0.1 at 2022-02-09 13:06:37 -0600 Processing by <a href="../ArticlesController.html#method-i-edit"><code>ArticlesController#edit</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 1], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/edit.html.erb within layouts/application
+Rendered articles/_form.html.erb (Duration: 3.2ms | Allocations: 1078)
+Rendered articles/edit.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1200)
+Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3243)</pre>
+
+<p>Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.1ms | Allocations: 4054)</p>
+
+<p>Started PATCH “/articles/1” for 127.0.0.1 at 2022-02-09 13:08:20 -0600 Processing by <a href="../ArticlesController.html#method-i-update"><code>ArticlesController#update</code></a> as TURBO_STREAM</p>
+
+<pre>Parameters: {&quot;authenticity_token&quot;=&gt;&quot;[FILTERED]&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;First Article&quot;, &quot;description&quot;=&gt;&quot;Description of the first article&quot;, &quot;version&quot;=&gt;&quot;1&quot;}, &quot;commit&quot;=&gt;&quot;Update Article&quot;, &quot;id&quot;=&gt;&quot;1&quot;}
+[1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 1], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+[1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+↳ app/controllers/articles_controller.rb:40:in `block in update&#39;
+[1m[36mArticle Update (0.2ms)[0m  [1m[33mUPDATE &quot;articles&quot; SET &quot;updated_at&quot; = ?, &quot;version&quot; = ? WHERE &quot;articles&quot;.&quot;id&quot; = ?[0m  [[&quot;updated_at&quot;, &quot;2022-02-09 19:08:20.443880&quot;], [&quot;version&quot;, 1], [&quot;id&quot;, 1]]
+↳ app/controllers/articles_controller.rb:40:in `block in update&#39;
+[1m[36mTRANSACTION (6.6ms)[0m  [1m[36mcommit transaction[0m
+↳ app/controllers/articles_controller.rb:40:in `block in update&#39;</pre>
+
+<p>Redirected to <a href="http://127.0.0.1:3000/articles/1">127.0.0.1:3000/articles/1</a> Completed 302 Found in 16ms (ActiveRecord: 7.5ms | Allocations: 6949)</p>
+
+<p>Started GET “/articles/1” for 127.0.0.1 at 2022-02-09 13:08:20 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as TURBO_STREAM</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 1], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 51)
+Rendered articles/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 823)
+Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 14300)</pre>
+
+<p>Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.1ms | Allocations: 15649)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 13:08:23 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.2ms | Allocations: 26)
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 23)
+Rendered articles/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1177)
+Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3242)</pre>
+
+<p>Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.3ms | Allocations: 3605)</p>
+
+<p>Started GET “/articles/2” for 127.0.0.1 at 2022-02-09 13:08:26 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 2], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 24)
+Rendered articles/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 519)
+Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2562)</pre>
+
+<p>Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.1ms | Allocations: 3397)</p>
+
+<p>Started GET “/articles/2/edit” for 127.0.0.1 at 2022-02-09 13:08:29 -0600 Processing by <a href="../ArticlesController.html#method-i-edit"><code>ArticlesController#edit</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 2], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/edit.html.erb within layouts/application
+Rendered articles/_form.html.erb (Duration: 4.5ms | Allocations: 1217)
+Rendered articles/edit.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1345)
+Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 3388)</pre>
+
+<p>Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.1ms | Allocations: 4199)</p>
+
+<p>Started PATCH “/articles/2” for 127.0.0.1 at 2022-02-09 13:08:32 -0600 Processing by <a href="../ArticlesController.html#method-i-update"><code>ArticlesController#update</code></a> as TURBO_STREAM</p>
+
+<pre>Parameters: {&quot;authenticity_token&quot;=&gt;&quot;[FILTERED]&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Second Article2&quot;, &quot;description&quot;=&gt;&quot;Description of the second article&quot;, &quot;version&quot;=&gt;&quot;1&quot;}, &quot;commit&quot;=&gt;&quot;Update Article&quot;, &quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 2], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+↳ app/controllers/articles_controller.rb:40:in `block in update&#39;
+[1m[36mArticle Update (0.3ms)[0m  [1m[33mUPDATE &quot;articles&quot; SET &quot;updated_at&quot; = ?, &quot;version&quot; = ? WHERE &quot;articles&quot;.&quot;id&quot; = ?[0m  [[&quot;updated_at&quot;, &quot;2022-02-09 19:08:32.106276&quot;], [&quot;version&quot;, 1], [&quot;id&quot;, 2]]
+↳ app/controllers/articles_controller.rb:40:in `block in update&#39;
+[1m[36mTRANSACTION (11.4ms)[0m  [1m[36mcommit transaction[0m
+↳ app/controllers/articles_controller.rb:40:in `block in update&#39;</pre>
+
+<p>Redirected to <a href="http://127.0.0.1:3000/articles/2">127.0.0.1:3000/articles/2</a> Completed 302 Found in 19ms (ActiveRecord: 12.0ms | Allocations: 3020)</p>
+
+<p>Started GET “/articles/2” for 127.0.0.1 at 2022-02-09 13:08:32 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as TURBO_STREAM</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 2], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 26)
+Rendered articles/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 558)
+Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2601)</pre>
+
+<p>Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.1ms | Allocations: 3416)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 13:08:34 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.2ms | Allocations: 26)
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 25)
+Rendered articles/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1063)
+Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3127)</pre>
+
+<p>Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.2ms | Allocations: 3468)</p>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2022-02-09 13:08:36 -0600 Processing by <a href="../ArticlesController.html#method-i-new"><code>ArticlesController#new</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/new.html.erb within layouts/application
+Rendered articles/_form.html.erb (Duration: 3.0ms | Allocations: 1054)
+Rendered articles/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1326)
+Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3379)</pre>
+
+<p>Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 3810)</p>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2022-02-09 13:08:59 -0600 Processing by <a href="../ArticlesController.html#method-i-create"><code>ArticlesController#create</code></a> as TURBO_STREAM</p>
+
+<pre>Parameters: {&quot;authenticity_token&quot;=&gt;&quot;[FILTERED]&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Third Article&quot;, &quot;description&quot;=&gt;&quot;This is the third article&quot;, &quot;version&quot;=&gt;&quot;1&quot;}, &quot;commit&quot;=&gt;&quot;Create Article&quot;}
+[1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+↳ app/controllers/articles_controller.rb:27:in `block in create&#39;
+[1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO &quot;articles&quot; (&quot;title&quot;, &quot;description&quot;, &quot;created_at&quot;, &quot;updated_at&quot;, &quot;version&quot;) VALUES (?, ?, ?, ?, ?)[0m  [[&quot;title&quot;, &quot;Third Article&quot;], [&quot;description&quot;, &quot;This is the third article&quot;], [&quot;created_at&quot;, &quot;2022-02-09 19:08:59.860671&quot;], [&quot;updated_at&quot;, &quot;2022-02-09 19:08:59.860671&quot;], [&quot;version&quot;, 1]]
+↳ app/controllers/articles_controller.rb:27:in `block in create&#39;
+[1m[36mTRANSACTION (4.1ms)[0m  [1m[36mcommit transaction[0m
+↳ app/controllers/articles_controller.rb:27:in `block in create&#39;</pre>
+
+<p>Redirected to <a href="http://127.0.0.1:3000/articles/3">127.0.0.1:3000/articles/3</a> Completed 302 Found in 8ms (ActiveRecord: 4.4ms | Allocations: 2430)</p>
+
+<p>Started GET “/articles/3” for 127.0.0.1 at 2022-02-09 13:08:59 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as TURBO_STREAM</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;3&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 3], [&quot;LIMIT&quot;, 1]]
+↳ app/controllers/articles_controller.rb:63:in `set_article&#39;
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 26)
+Rendered articles/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 573)
+Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2630)</pre>
+
+<p>Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.1ms | Allocations: 3445)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 13:09:01 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.2ms | Allocations: 26)
+Rendered articles/_article.html.erb (Duration: 0.2ms | Allocations: 25)
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 25)
+Rendered articles/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1214)
+Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3278)</pre>
+
+<p>Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.2ms | Allocations: 3619)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 16:58:18 -0600</p>
+
+<pre>[1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m</pre>
+
+<p>Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+↳ app/views/articles/index.html.erb:6
+Rendered articles/_article.html.erb (Duration: 0.4ms | Allocations: 313)
+Rendered articles/_article.html.erb (Duration: 0.0ms | Allocations: 25)
+Rendered articles/_article.html.erb (Duration: 0.0ms | Allocations: 25)
+Rendered articles/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 8124)
+Rendered layout layouts/application.html.erb (Duration: 54.2ms | Allocations: 42659)</pre>
+
+<p>Completed 200 OK in 63ms (Views: 56.8ms | ActiveRecord: 0.5ms | Allocations: 49283)</p>
+
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.4.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

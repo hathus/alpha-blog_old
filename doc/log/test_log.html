@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>test.log - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+  var index_rel_prefix = "../";
+</script>
+
+<script src="../js/navigation.js" defer></script>
+<script src="../js/search.js" defer></script>
+<script src="../js/search_index.js" defer></script>
+<script src="../js/searcher.js" defer></script>
+<script src="../js/darkfish.js" defer></script>
+
+<link href="../css/fonts.css" rel="stylesheet">
+<link href="../css/rdoc.css" rel="stylesheet">
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../table_of_contents.html#pages">Pages</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    
+<div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+    <li><a href="../Gemfile.html">Gemfile</a>
+    <li><a href="../Gemfile_lock.html">Gemfile.lock</a>
+    <li><a href="../README_md.html">README</a>
+    <li><a href="../Rakefile.html">Rakefile</a>
+    <li><a href="../app/assets/config/manifest_js.html">manifest.js</a>
+    <li><a href="../app/assets/stylesheets/application_css.html">application.css</a>
+    <li><a href="../app/javascript/application_js.html">application.js</a>
+    <li><a href="../app/javascript/controllers/application_js.html">application.js</a>
+    <li><a href="../app/javascript/controllers/hello_controller_js.html">hello_controller.js</a>
+    <li><a href="../app/javascript/controllers/index_js.html">index.js</a>
+    <li><a href="../app/views/articles/_article_json_jbuilder.html">_article.json.jbuilder</a>
+    <li><a href="../app/views/articles/index_json_jbuilder.html">index.json.jbuilder</a>
+    <li><a href="../app/views/articles/show_json_jbuilder.html">show.json.jbuilder</a>
+    <li><a href="../config_ru.html">config.ru</a>
+    <li><a href="../config/credentials_yml_enc.html">credentials.yml.enc</a>
+    <li><a href="../config/master_key.html">master.key</a>
+    <li><a href="../log/development_log.html">development.log</a>
+    <li><a href="../log/test_log.html">test.log</a>
+    <li><a href="../public/404_html.html">404.html</a>
+    <li><a href="../public/422_html.html">422.html</a>
+    <li><a href="../public/500_html.html">500.html</a>
+    <li><a href="../public/apple-touch-icon-precomposed_png.html">apple-touch-icon-precomposed.png</a>
+    <li><a href="../public/apple-touch-icon_png.html">apple-touch-icon.png</a>
+    <li><a href="../public/favicon_ico.html">favicon.ico</a>
+    <li><a href="../public/robots_txt.html">robots</a>
+    <li><a href="../tmp/development_secret_txt.html">development_secret</a>
+    <li><a href="../tmp/restart_txt.html">restart</a>
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page log/test.log">
+
+<pre>[1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS &quot;articles&quot;[0m
+[1m[35m (12.1ms)[0m  [1m[35mCREATE TABLE &quot;articles&quot; (&quot;id&quot; integer PRIMARY KEY AUTOINCREMENT NOT NULL, &quot;title&quot; varchar, &quot;description&quot; text, &quot;created_at&quot; datetime(6) NOT NULL, &quot;updated_at&quot; datetime(6) NOT NULL)[0m
+[1m[35m (3.9ms)[0m  [1m[35mCREATE TABLE &quot;schema_migrations&quot; (&quot;version&quot; varchar NOT NULL PRIMARY KEY)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[35m (4.0ms)[0m  [1m[32mINSERT INTO &quot;schema_migrations&quot; (version) VALUES (20220209181959)[0m
+[1m[35m (3.8ms)[0m  [1m[35mCREATE TABLE &quot;ar_internal_metadata&quot; (&quot;key&quot; varchar NOT NULL PRIMARY KEY, &quot;value&quot; varchar, &quot;created_at&quot; datetime(6) NOT NULL, &quot;updated_at&quot; datetime(6) NOT NULL)[0m
+[1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+[1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO &quot;ar_internal_metadata&quot; (&quot;key&quot;, &quot;value&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?)[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;value&quot;, &quot;test&quot;], [&quot;created_at&quot;, &quot;2022-02-09 18:51:19.898795&quot;], [&quot;updated_at&quot;, &quot;2022-02-09 18:51:19.898795&quot;]]
+[1m[36mTRANSACTION (4.0ms)[0m  [1m[36mcommit transaction[0m
+[1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;schema_sha1&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+[1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO &quot;ar_internal_metadata&quot; (&quot;key&quot;, &quot;value&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?)[0m  [[&quot;key&quot;, &quot;schema_sha1&quot;], [&quot;value&quot;, &quot;3e2dac682d77d063b234cede31d04882023a79f3&quot;], [&quot;created_at&quot;, &quot;2022-02-09 18:51:19.905149&quot;], [&quot;updated_at&quot;, &quot;2022-02-09 18:51:19.905149&quot;]]
+[1m[36mTRANSACTION (4.1ms)[0m  [1m[36mcommit transaction[0m
+[1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::InternalMetadata Pluck (0.1ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.&quot;value&quot; FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;schema_sha1&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[36mActiveRecord::InternalMetadata Pluck (0.1ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.&quot;value&quot; FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[36mActiveRecord::InternalMetadata Pluck (0.1ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.&quot;value&quot; FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[36mActiveRecord::InternalMetadata Pluck (0.1ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.&quot;value&quot; FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS &quot;articles&quot;[0m
+[1m[35m (30.7ms)[0m  [1m[35mCREATE TABLE &quot;articles&quot; (&quot;id&quot; integer PRIMARY KEY AUTOINCREMENT NOT NULL, &quot;title&quot; varchar, &quot;description&quot; text, &quot;created_at&quot; datetime(6) NOT NULL, &quot;updated_at&quot; datetime(6) NOT NULL)[0m
+[1m[35m (21.3ms)[0m  [1m[35mCREATE TABLE &quot;schema_migrations&quot; (&quot;version&quot; varchar NOT NULL PRIMARY KEY)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[35m (28.7ms)[0m  [1m[32mINSERT INTO &quot;schema_migrations&quot; (version) VALUES (20220209184659)[0m
+[1m[35m (24.0ms)[0m  [1m[32mINSERT INTO &quot;schema_migrations&quot; (version) VALUES</pre>
+
+<p>(20220209181959);</p>
+
+<p>[0m</p>
+
+<pre>[1m[35m (20.9ms)[0m  [1m[35mCREATE TABLE &quot;ar_internal_metadata&quot; (&quot;key&quot; varchar NOT NULL PRIMARY KEY, &quot;value&quot; varchar, &quot;created_at&quot; datetime(6) NOT NULL, &quot;updated_at&quot; datetime(6) NOT NULL)[0m
+[1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+[1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO &quot;ar_internal_metadata&quot; (&quot;key&quot;, &quot;value&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?)[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;value&quot;, &quot;test&quot;], [&quot;created_at&quot;, &quot;2022-02-09 18:53:34.462170&quot;], [&quot;updated_at&quot;, &quot;2022-02-09 18:53:34.462170&quot;]]
+[1m[36mTRANSACTION (25.6ms)[0m  [1m[36mcommit transaction[0m
+[1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;environment&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT &quot;ar_internal_metadata&quot;.* FROM &quot;ar_internal_metadata&quot; WHERE &quot;ar_internal_metadata&quot;.&quot;key&quot; = ? LIMIT ?[0m  [[&quot;key&quot;, &quot;schema_sha1&quot;], [&quot;LIMIT&quot;, 1]]
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+[1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO &quot;ar_internal_metadata&quot; (&quot;key&quot;, &quot;value&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?)[0m  [[&quot;key&quot;, &quot;schema_sha1&quot;], [&quot;value&quot;, &quot;f96a040578b4142713192a92c51c973080b07bdf&quot;], [&quot;created_at&quot;, &quot;2022-02-09 18:53:34.492959&quot;], [&quot;updated_at&quot;, &quot;2022-02-09 18:53:34.492959&quot;]]
+[1m[36mTRANSACTION (15.5ms)[0m  [1m[36mcommit transaction[0m
+[1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+[1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT &quot;schema_migrations&quot;.&quot;version&quot; FROM &quot;schema_migrations&quot; ORDER BY &quot;schema_migrations&quot;.&quot;version&quot; ASC[0m
+[1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+[1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+[1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+[1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+[1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+[1m[36mFixtures Load (0.3ms)[0m  [1m[31mDELETE FROM &quot;articles&quot;;</pre>
+
+<p>INSERT INTO “articles” (“id”, “title”, “description”, “created_at”, “updated_at”) VALUES (980190962, ‘MyString’, ‘MyText’, ‘2022-02-09 18:53:34.580766’, ‘2022-02-09 18:53:34.580766’); INSERT INTO “articles” (“id”, “title”, “description”, “created_at”, “updated_at”) VALUES (298486374, ‘MyString’, ‘MyText’, ‘2022-02-09 18:53:34.580766’, ‘2022-02-09 18:53:34.580766’)[0m</p>
+
+<pre>[1m[36mTRANSACTION (22.7ms)[0m  [1m[36mcommit transaction[0m
+[1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+[1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+[1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_key_check[0m
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m</pre>
+<hr>
+
+<p>ArticlesControllerTest: test_should_get_index</p>
+<hr>
+
+<pre>[1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 980190962], [&quot;LIMIT&quot;, 1]]</pre>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2022-02-09 12:53:34 -0600 Processing by <a href="../ArticlesController.html#method-i-index"><code>ArticlesController#index</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/index.html.erb within layouts/application
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/_article.html.erb (Duration: 0.3ms | Allocations: 264)
+Rendered articles/_article.html.erb (Duration: 0.0ms | Allocations: 15)
+Rendered articles/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2028)
+Rendered layout layouts/application.html.erb (Duration: 225.6ms | Allocations: 89726)</pre>
+
+<p>Completed 200 OK in 232ms (Views: 227.3ms | ActiveRecord: 0.1ms | Allocations: 95585)</p>
+
+<pre>[1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m</pre>
+<hr>
+
+<p>ArticlesControllerTest: test_should_show_article</p>
+<hr>
+
+<pre>[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 980190962], [&quot;LIMIT&quot;, 1]]</pre>
+
+<p>Started GET “/articles/980190962” for 127.0.0.1 at 2022-02-09 12:53:35 -0600 Processing by <a href="../ArticlesController.html#method-i-show"><code>ArticlesController#show</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;980190962&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 980190962], [&quot;LIMIT&quot;, 1]]
+Rendering layout layouts/application.html.erb
+Rendering articles/show.html.erb within layouts/application
+Rendered articles/_article.html.erb (Duration: 0.1ms | Allocations: 22)
+Rendered articles/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 590)
+Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1924)</pre>
+
+<p>Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.1ms | Allocations: 2651)</p>
+
+<pre>[1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m</pre>
+<hr>
+
+<p>ArticlesControllerTest: test_should_destroy_article</p>
+<hr>
+
+<pre>[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 980190962], [&quot;LIMIT&quot;, 1]]
+[1m[36mArticle Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM &quot;articles&quot;[0m</pre>
+
+<p>Started DELETE “/articles/980190962” for 127.0.0.1 at 2022-02-09 12:53:35 -0600 Processing by <a href="../ArticlesController.html#method-i-destroy"><code>ArticlesController#destroy</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;980190962&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 980190962], [&quot;LIMIT&quot;, 1]]
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+[1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ?[0m  [[&quot;id&quot;, 980190962]]
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m</pre>
+
+<p>Redirected to <a href="http://www.example.com/articles">www.example.com/articles</a> Completed 302 Found in 5ms (ActiveRecord: 0.7ms | Allocations: 1037)</p>
+
+<pre>[1m[36mArticle Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM &quot;articles&quot;[0m
+[1m[36mTRANSACTION (0.2ms)[0m  [1m[31mrollback transaction[0m
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m</pre>
+<hr>
+
+<p>ArticlesControllerTest: test_should_create_article</p>
+<hr>
+
+<pre>[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 980190962], [&quot;LIMIT&quot;, 1]]
+[1m[36mArticle Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM &quot;articles&quot;[0m</pre>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2022-02-09 12:53:35 -0600 Processing by <a href="../ArticlesController.html#method-i-create"><code>ArticlesController#create</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;article&quot;=&gt;{&quot;description&quot;=&gt;&quot;MyText&quot;, &quot;title&quot;=&gt;&quot;MyString&quot;}}
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+[1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO &quot;articles&quot; (&quot;title&quot;, &quot;description&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?)[0m  [[&quot;title&quot;, &quot;MyString&quot;], [&quot;description&quot;, &quot;MyText&quot;], [&quot;created_at&quot;, &quot;2022-02-09 18:53:35.129350&quot;], [&quot;updated_at&quot;, &quot;2022-02-09 18:53:35.129350&quot;]]
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m</pre>
+
+<p>Redirected to <a href="http://www.example.com/articles/980190963">www.example.com/articles/980190963</a> Completed 302 Found in 4ms (ActiveRecord: 0.5ms | Allocations: 1368)</p>
+
+<pre>[1m[36mArticle Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM &quot;articles&quot;[0m
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; ORDER BY &quot;articles&quot;.&quot;id&quot; DESC LIMIT ?[0m  [[&quot;LIMIT&quot;, 1]]
+[1m[36mTRANSACTION (0.3ms)[0m  [1m[31mrollback transaction[0m
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m</pre>
+<hr>
+
+<p>ArticlesControllerTest: test_should_get_new</p>
+<hr>
+
+<pre>[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 980190962], [&quot;LIMIT&quot;, 1]]</pre>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2022-02-09 12:53:35 -0600 Processing by <a href="../ArticlesController.html#method-i-new"><code>ArticlesController#new</code></a> as HTML</p>
+
+<pre>Rendering layout layouts/application.html.erb
+Rendering articles/new.html.erb within layouts/application
+Rendered articles/_form.html.erb (Duration: 6.9ms | Allocations: 3063)
+Rendered articles/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 3366)
+Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 4717)</pre>
+
+<p>Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 5154)</p>
+
+<pre>[1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m</pre>
+<hr>
+
+<p>ArticlesControllerTest: test_should_get_edit</p>
+<hr>
+
+<pre>[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 980190962], [&quot;LIMIT&quot;, 1]]</pre>
+
+<p>Started GET “/articles/980190962/edit” for 127.0.0.1 at 2022-02-09 12:53:35 -0600 Processing by <a href="../ArticlesController.html#method-i-edit"><code>ArticlesController#edit</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;980190962&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 980190962], [&quot;LIMIT&quot;, 1]]
+Rendering layout layouts/application.html.erb
+Rendering articles/edit.html.erb within layouts/application
+Rendered articles/_form.html.erb (Duration: 2.0ms | Allocations: 675)
+Rendered articles/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 960)
+Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2239)</pre>
+
+<p>Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.1ms | Allocations: 2758)</p>
+
+<pre>[1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+[1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m</pre>
+<hr>
+
+<p>ArticlesControllerTest: test_should_update_article</p>
+<hr>
+
+<pre>[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 980190962], [&quot;LIMIT&quot;, 1]]</pre>
+
+<p>Started PATCH “/articles/980190962” for 127.0.0.1 at 2022-02-09 12:53:35 -0600 Processing by <a href="../ArticlesController.html#method-i-update"><code>ArticlesController#update</code></a> as HTML</p>
+
+<pre>Parameters: {&quot;article&quot;=&gt;{&quot;description&quot;=&gt;&quot;MyText&quot;, &quot;title&quot;=&gt;&quot;MyString&quot;}, &quot;id&quot;=&gt;&quot;980190962&quot;}
+[1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT ?[0m  [[&quot;id&quot;, 980190962], [&quot;LIMIT&quot;, 1]]</pre>
+
+<p>Redirected to <a href="http://www.example.com/articles/980190962">www.example.com/articles/980190962</a> Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 752)</p>
+
+<pre>[1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m</pre>
+
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.4.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
